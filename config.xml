@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="55" id="com.spartascience.spartatrac" version="55" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SpartaTrac</name>
+    <description>Sparta Athlete.</description>
+    <author email="sbirendorf@gmail.com" href="">SpartaTrac Team</author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <icon src="icon.png" />
+    <preference name="SplashScreen" value="splash" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <allow-intent href="*" />
+        <allow-navigation href="*" />
+         <icon src="icon180.png" width="180" height="180" />
+        <icon src="icon60.png" width="60" height="60" />
+        <icon src="icon120.png" width="120" height="120" />
+        <icon src="icon76.png" width="76" height="76" />
+        <icon src="icon152.png" width="152" height="152" />
+        <icon src="icon40.png" width="40" height="40" />
+        <icon src="icon80.png" width="80" height="80" />
+        <icon src="icon57.png" width="57" height="57" />
+        <icon src="icon114.png" width="114" height="114" />
+        <icon src="icon72.png" width="72" height="72" />
+        <icon src="icon144.png" width="144" height="144" />
+        <icon src="icon29.png" width="29" height="29" />
+        <icon src="icon58.png" width="58" height="58" />
+        <icon src="icon50.png" width="50" height="50" />
+        <icon src="icon100.png" width="100" height="100" />
+        <splash src="splash480.png" width="320" height="480"/>
+        <splash src="splash960.png" width="640" height="960"/>
+        <splash src="splash1024.png" width="768" height="1024"/>
+        <splash src="splash2048.png" width="1536" height="2048"/>
+        <splash src="splash768.png" width="1024" height="768"/>
+        <splash src="splash1536.png" width="2048" height="1536"/>
+        <splash src="splash1136.png" width="640" height="1136"/>
+        <splash src="splash1334.png" width="750" height="1334"/>
+        <splash src="splash2208.png" width="1242" height="2208"/>
+        <splash src="splash1242.png" width="2208" height="1242"/>
+    </platform>
+    <engine name="ios" spec="~4.1.1" />
+    <engine name="android" spec="~5.1.1" />
+</widget>

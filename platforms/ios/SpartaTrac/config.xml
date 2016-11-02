@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="55" id="com.spartascience.spartatrac" version="55" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="ios-package" value="APPBackgroundMode" />
+    </feature>
+    <feature name="DatePicker">
+        <param name="ios-package" value="DatePicker" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="ios-package" onload="true" value="APPLocalNotification" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>SpartaTrac</name>
+    <description>Sparta Athlete.</description>
+    <author email="sbirendorf@gmail.com" href="">SpartaTrac Team</author>
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <icon height="180" src="icon180.png" width="180" />
+    <icon height="60" src="icon60.png" width="60" />
+    <icon height="120" src="icon120.png" width="120" />
+    <icon height="76" src="icon76.png" width="76" />
+    <icon height="152" src="icon152.png" width="152" />
+    <icon height="40" src="icon40.png" width="40" />
+    <icon height="80" src="icon80.png" width="80" />
+    <icon height="57" src="icon57.png" width="57" />
+    <icon height="114" src="icon114.png" width="114" />
+    <icon height="72" src="icon72.png" width="72" />
+    <icon height="144" src="icon144.png" width="144" />
+    <icon height="29" src="icon29.png" width="29" />
+    <icon height="58" src="icon58.png" width="58" />
+    <icon height="50" src="icon50.png" width="50" />
+    <icon height="100" src="icon100.png" width="100" />
+    <splash height="480" src="splash480.png" width="320" />
+    <splash height="960" src="splash960.png" width="640" />
+    <splash height="1024" src="splash1024.png" width="768" />
+    <splash height="2048" src="splash2048.png" width="1536" />
+    <splash height="768" src="splash768.png" width="1024" />
+    <splash height="1536" src="splash1536.png" width="2048" />
+    <splash height="1136" src="splash1136.png" width="640" />
+    <splash height="1334" src="splash1334.png" width="750" />
+    <splash height="2208" src="splash2208.png" width="1242" />
+    <splash height="1242" src="splash1242.png" width="2208" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SplashScreen" value="splash" />
+</widget>
